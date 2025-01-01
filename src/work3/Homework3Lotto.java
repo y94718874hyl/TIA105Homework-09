@@ -12,11 +12,11 @@ public class Homework3Lotto {
 
 		int sum = 0;
 		int noNum = 0;
-		System.out.print("請輸入0~9中不想要的數字");
+		System.out.print("請輸入0~9中不想要的數字:");
 
 		noNum = sc.nextInt();
 		while (noNum > 10) {
-			System.out.print("輸入錯誤,請輸入0~9的數字");
+			System.out.print("輸入錯誤,請輸入0~9的數字:");
 			noNum = sc.nextInt();
 			if (noNum <= 9) {
 				break;
