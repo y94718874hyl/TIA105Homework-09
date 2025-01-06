@@ -14,15 +14,12 @@ public class Homework4Score {
 				{ 98, 70, 89, 90, 75, 90, 89, 90 }, { 90, 80, 100, 75, 50, 20, 99, 75 } };
 
 		int max = 0;
-		int re = 0;
-
 		int[] count = new int[6];
+
 		for (int i = 0; i < test.length; i++) {
 			for (int j = 0; j < test[i].length; j++) {
 				if (test[i][j] > max) {
 					max = test[i][j];
-					re = st[j];
-
 					count[i] = st[j];
 				}
 			}
