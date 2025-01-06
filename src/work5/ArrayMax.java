@@ -37,8 +37,6 @@ public class ArrayMax {
 		System.out.println(w.maxElement(doubleArray));
 	}
 
-//	public double maxElement(double x[][]) {
-//		
-//	}
+
 
 }
