@@ -18,8 +18,8 @@ public class CalTest {
 
 			} catch (CalException e) {
 				System.out.println(e.getMessage());
-			}catch (InputMismatchException e) {
-				System.out.println("格式錯誤");
+			} catch (InputMismatchException e) {
+				System.out.println("輸入格式不正確");
 			}
 		}
 	}
