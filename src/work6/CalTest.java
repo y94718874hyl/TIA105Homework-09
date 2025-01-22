@@ -12,9 +12,9 @@ public class CalTest {
 		while (true)
 			try {
 				System.out.println("請輸入x的值");
-				x = c.checkInt(sc, "x");
+				x = c.checkInt("x");
 				System.out.println("請輸入y的值");
-				y = c.checkInt(sc, "y");
+				y = c.checkInt("y");
 
 				re = c.powerXY(x, y);
 				if (x > 0 && y > 0) {
